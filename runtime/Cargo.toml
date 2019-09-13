@@ -4,10 +4,5 @@ version = "2.0.0"
 authors = ["Parity Technologies <admin@parity.io>"]
 edition = "2018"
 
-[lib]
-name = "node_runtime"
-crate-type = ["cdylib"]
-
 [dependencies]
 curve = { package = "srml-staking-npos-reward-curve", path = "../npos-reward-curve"}
-
